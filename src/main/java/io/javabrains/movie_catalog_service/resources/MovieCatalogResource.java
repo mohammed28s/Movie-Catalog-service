@@ -18,7 +18,7 @@ import java.util.List;
 public class MovieCatalogResource {
 
 
-    @RequestMapping("/{userId}")
+    @RequestMapping("/{userId}")   // fetching the user info
     public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 
         return Collections.singletonList(
