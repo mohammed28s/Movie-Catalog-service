@@ -14,7 +14,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/catalog")
+@RequestMapping("/catalog")          // The main path to the catalog API
 public class MovieCatalogResource {
 
 
